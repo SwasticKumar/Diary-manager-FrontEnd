@@ -10,12 +10,12 @@ export default function Signup() {
     const [passwordMode, setPasswordMode] = useState(false);
 
     return (
-        <div className="bg-main-color flex h-screen justify-center items-center min-h-full flex-1 flex-col px-6 py-12 lg:px-8">
+        <div className="bg-color flex h-screen justify-center items-center min-h-full flex-1 flex-col px-6 py-12 lg:px-8">
 
             <div className="mt-3 sm:mx-auto sm:w-full sm:max-w-sm">
                 <form className="space-y-6" action="#" method="POST" onSubmit={handleSignup}>
                     <div className="sm:mx-auto sm:w-full sm:max-w-sm">
-                        <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">
+                        <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-orange-600">
                             Create Your Account
                         </h2>
                     </div>
@@ -96,16 +96,16 @@ export default function Signup() {
                     <div>
                         <button
                             type="submit"
-                            className="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                            className="flex w-full justify-center rounded-md bg-orange-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-orange-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600"
                         >
                             Create Account
                         </button>
                     </div>
                 </form>
 
-                <p className="mt-10 text-center text-sm text-gray-500">
+                <p className="mt-10 text-center text-sm text-gray-900">
                     Have an Account?{' '}
-                    <Link to="/" className="font-semibold leading-6 text-indigo-600 hover:text-indigo-500">
+                    <Link to="/" className="font-semibold leading-6 text-indigo-800 hover:text-indigo-700">
                         Sign In
                     </Link>
                 </p>

@@ -139,10 +139,10 @@ const Dashboard = () => {
   return (
     <div className='bg-grey'>
     <div className="container mx-auto py-2">
-      <div className="w-full sm:w-full rounded-lg flex justify-center items-center text-blue-900 text-center bg-dark-orange shadow-md mb-3">
+      <div className="w-full sm:w-full rounded-lg flex justify-center items-center text-blue-900 text-center bg-cyan-300 shadow-md mb-3">
         <div className='pt-5 pb-5'>
-          <h1 className="display-4 font-bold">E-DIARY MANAGER</h1>
-          <p className="lead mt-2">E-Diary Manager facilitates digital organization of daily tasks and events.</p>
+          <h1 className="display-4 font-bold">DIARY MANAGER</h1>
+          <p className="lead mt-2">Diary Manager facilitates digital organization of daily tasks and events.</p>
         </div>
       </div>
 

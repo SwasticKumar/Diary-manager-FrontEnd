@@ -31,7 +31,7 @@ export default function Login() {
               onSubmit={handleLogin}
             >
               <div>
-                <h2 className="mt-10 mb-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">
+                <h2 className="mt-10 mb-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-700">
                   Sign in to your account
                 </h2>
 
@@ -40,16 +40,15 @@ export default function Login() {
                   style={{ color: "#231557" }}
                 >
                   Email:
-                  <span className="text-blue-700 font-bold">
-                    {" "}
-                    guvitest@gmail.com
+                  <span className="text-indigo-500 font-bold">
+                    test@gmail.com
                   </span>
                   , Password:
-                  <span className="text-blue-700 font-bold">1234</span>
+                  <span className="text-indigo-500 font-bold">1234</span>
                 </h6>
                 <label
                   htmlFor="email"
-                  className="block text-sm font-medium leading-6 text-gray-900"
+                  className="block text-sm font-medium leading-6"
                 >
                   Email address
                 </label>
@@ -109,7 +108,7 @@ export default function Login() {
               <div>
                 <button
                   type="submit"
-                  className="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                  className="flex w-full justify-center rounded-md bg-[#ee5f3e] px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-[#f07153] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#ee5f3e]"
                 >
                   Sign in
                 </button>
